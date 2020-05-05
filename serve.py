@@ -9,9 +9,10 @@ from flask import Flask, request
 import json
 from getInfo.getInfo import *
 from nodeTemp.nodeTemp import *
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app, supports_credentials=True)
 
 @app.route('/')
 def index():
@@ -23,25 +24,10 @@ def get_info():
     pass
 
 
-@app.route('/api/<type>', methods=['POST'])
-def show_type(type):
-    name = request.form['name']
-    res_data = {
-        'nodes': [],
-        'eage': [],
-        'remains_nodes':[],
-        'status': ''
-    }
+@app.route('/api/company/<name>', methods=['GET'])
+def show_type(name):
     Help = getInfo()
-    if type == "company":
-        res_data = Help.getRelationFromCompany(name)
-    elif type == "person":
-        res_data = Help.getRelationFromPerson(name)
-    elif type == "shareholder":
-        res_data = Help.getRelationFromHolder(name)
-    else:
-        res_data['status'] = 'type is error'
-
+    res_data = Help.getDataFromCompany_mul(name)
     return json.dumps(res_data)
 
 
