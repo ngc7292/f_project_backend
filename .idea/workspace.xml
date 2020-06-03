@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ea35cda-1edd-4b7d-a8d6-69fcf9b4be6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dict/dict.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spider_notice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/updateDict/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7ea35cda-1edd-4b7d-a8d6-69fcf9b4be6d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +216,7 @@
       <workItem from="1590372455927" duration="633000" />
       <workItem from="1590487882873" duration="613000" />
       <workItem from="1590754848431" duration="35000" />
-      <workItem from="1591168308537" duration="941000" />
+      <workItem from="1591168308537" duration="1322000" />
     </task>
     <servers />
   </component>
