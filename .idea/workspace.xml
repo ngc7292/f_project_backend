@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea35cda-1edd-4b7d-a8d6-69fcf9b4be6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict/dict.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider_notice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/updateDict/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getInfo/getInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/getInfo/getInfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodeTemp/nodeTemp.py" beforeDir="false" afterPath="$PROJECT_DIR$/nodeTemp/nodeTemp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve.py" beforeDir="false" afterPath="$PROJECT_DIR$/serve.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +29,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bNTPz0iMMxeIIb4Jq8hzEAZf5k" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -57,6 +58,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Flask server.Flask (serve.py)">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/updateDict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/updateDict/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="getInfo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +124,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="spider_notice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_notice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (serve.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <option name="target" value="$PROJECT_DIR$/serve.py" />
@@ -136,10 +181,14 @@
       <item itemvalue="Flask server.Flask (serve.py)" />
       <item itemvalue="Python.getInfo" />
       <item itemvalue="Python.getInfo (1)" />
+      <item itemvalue="Python.spider_notice" />
+      <item itemvalue="Python.__init__" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Flask server.Flask (serve.py)" />
+        <item itemvalue="Python.spider_notice" />
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.getInfo (1)" />
         <item itemvalue="Python.getInfo" />
       </list>
@@ -159,7 +208,21 @@
       <workItem from="1588555991244" duration="1955000" />
       <workItem from="1588574195337" duration="3637000" />
       <workItem from="1588592098638" duration="7825000" />
-      <workItem from="1588642441011" duration="926000" />
+      <workItem from="1588642441011" duration="3341000" />
+      <workItem from="1588847321528" duration="602000" />
+      <workItem from="1588849815161" duration="18000" />
+      <workItem from="1588933802972" duration="986000" />
+      <workItem from="1589077925793" duration="6890000" />
+      <workItem from="1589124583649" duration="1684000" />
+      <workItem from="1589613935700" duration="1324000" />
+      <workItem from="1589765932539" duration="1549000" />
+      <workItem from="1590126396647" duration="1529000" />
+      <workItem from="1590206920684" duration="2118000" />
+      <workItem from="1590319831684" duration="1815000" />
+      <workItem from="1590372455927" duration="633000" />
+      <workItem from="1590487882873" duration="613000" />
+      <workItem from="1590754848431" duration="35000" />
+      <workItem from="1591168308537" duration="941000" />
     </task>
     <servers />
   </component>
@@ -167,51 +230,56 @@
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="1098" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589125311782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1098" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589125311782" />
     <state x="558" y="85" key="CommitChangelistDialog2" timestamp="1588556194605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="558" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588556194605" />
-    <state x="828" y="291" key="FileChooserDialogImpl" timestamp="1588471598737">
+    <state x="828" y="291" key="FileChooserDialogImpl" timestamp="1590754876484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="828" y="291" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588471598737" />
-    <state width="1115" height="309" key="GridCell.Tab.0.bottom" timestamp="1588608756039">
+    <state x="828" y="291" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590754876484" />
+    <state width="1340" height="280" key="GridCell.Tab.0.bottom" timestamp="1590213741846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756039" />
-    <state width="1115" height="309" key="GridCell.Tab.0.center" timestamp="1588608756039">
+    <state width="1340" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590213741846" />
+    <state width="1340" height="280" key="GridCell.Tab.0.center" timestamp="1590213741846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756039" />
-    <state width="1115" height="309" key="GridCell.Tab.0.left" timestamp="1588608756039">
+    <state width="1340" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590213741846" />
+    <state width="1340" height="280" key="GridCell.Tab.0.left" timestamp="1590213741846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756039" />
-    <state width="1115" height="309" key="GridCell.Tab.0.right" timestamp="1588608756039">
+    <state width="1340" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590213741846" />
+    <state width="1340" height="280" key="GridCell.Tab.0.right" timestamp="1590213741846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1115" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756039" />
-    <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1588608756027">
+    <state width="1340" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590213741846" />
+    <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1589099557978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756027" />
-    <state width="1340" height="327" key="GridCell.Tab.1.center" timestamp="1588608756027">
+    <state width="1340" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589099557978" />
+    <state width="1340" height="327" key="GridCell.Tab.1.center" timestamp="1589099557978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756027" />
-    <state width="1340" height="327" key="GridCell.Tab.1.left" timestamp="1588608756027">
+    <state width="1340" height="327" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589099557978" />
+    <state width="1340" height="327" key="GridCell.Tab.1.left" timestamp="1589099557978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756027" />
-    <state width="1340" height="327" key="GridCell.Tab.1.right" timestamp="1588608756027">
+    <state width="1340" height="327" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589099557978" />
+    <state width="1340" height="327" key="GridCell.Tab.1.right" timestamp="1589099557978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588608756027" />
+    <state width="1340" height="327" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589099557978" />
     <state x="549" y="181" key="SettingsEditor" timestamp="1588471608012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,7 +331,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/backend$spider_notice.coverage" NAME="spider_notice Coverage Results" MODIFIED="1590213741839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/backend$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1589125333569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/updateDict" />
     <SUITE FILE_PATH="coverage/backend$getInfo__1_.coverage" NAME="getInfo (1) Coverage Results" MODIFIED="1588605022591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/getInfo" />
-    <SUITE FILE_PATH="coverage/backend$Flask__serve_py_.coverage" NAME="Flask (serve.py) Coverage Results" MODIFIED="1588642741061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/backend$Flask__serve_py_.coverage" NAME="Flask (serve.py) Coverage Results" MODIFIED="1591168767354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
